@@ -8,7 +8,7 @@
     >
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imagen_perfil"
         android:layout_width="191dp"
         android:layout_height="209dp"
         android:layout_marginTop="60dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/profile_user_account_icon_190938" />
 
     <TextView
-        android:id="@+id/sNameP"
+        android:id="@+id/etiqueta_nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -26,13 +26,13 @@
         android:text="Nombres:"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/nameP"
+        app:layout_constraintEnd_toStartOf="@+id/valor_nombre"
         app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toBottomOf="@+id/imagen_perfil" />
 
     <TextView
-        android:id="@+id/sEmailP"
+        android:id="@+id/etiqueta_correo"
         android:layout_width="116dp"
         android:layout_height="48dp"
         android:layout_marginStart="44dp"
@@ -40,13 +40,13 @@
         android:text="Correo Electronico:"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/emailP"
+        app:layout_constraintEnd_toStartOf="@+id/valor_correo"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sApellidosP" />
+        app:layout_constraintTop_toBottomOf="@+id/etiqueta_apellido" />
 
     <TextView
-        android:id="@+id/sApellidosP"
+        android:id="@+id/etiqueta_apellido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -54,27 +54,27 @@
         android:text="Apellidos:"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/lastnameP"
+        app:layout_constraintEnd_toStartOf="@+id/valor_apellido"
         app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sNameP" />
+        app:layout_constraintTop_toBottomOf="@+id/etiqueta_nombre" />
 
     <TextView
-        android:id="@+id/sTelefonoP"
+        android:id="@+id/etiqueta_telefono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="32dp"
-        android:text="Telefono:"
+        android:text="@string/telefono"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/phoneP"
+        app:layout_constraintEnd_toStartOf="@+id/valor_telefono"
         app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sEmailP" />
+        app:layout_constraintTop_toBottomOf="@+id/etiqueta_correo" />
 
     <TextView
-        android:id="@+id/nameP"
+        android:id="@+id/valor_nombre"
         android:layout_width="172dp"
         android:layout_height="42dp"
         android:layout_marginTop="36dp"
@@ -83,10 +83,10 @@
 
         android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toBottomOf="@+id/imagen_perfil" />
 
     <TextView
-        android:id="@+id/lastnameP"
+        android:id="@+id/valor_apellido"
         android:layout_width="172dp"
         android:layout_height="42dp"
         android:layout_marginTop="24dp"
@@ -94,10 +94,10 @@
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameP" />
+        app:layout_constraintTop_toBottomOf="@+id/valor_nombre" />
 
     <TextView
-        android:id="@+id/emailP"
+        android:id="@+id/valor_correo"
         android:layout_width="172dp"
         android:layout_height="42dp"
         android:layout_marginTop="28dp"
@@ -105,10 +105,10 @@
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lastnameP" />
+        app:layout_constraintTop_toBottomOf="@+id/valor_apellido" />
 
     <TextView
-        android:id="@+id/phoneP"
+        android:id="@+id/valor_telefono"
         android:layout_width="172dp"
         android:layout_height="42dp"
         android:layout_marginTop="28dp"
@@ -116,10 +116,10 @@
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailP" />
+        app:layout_constraintTop_toBottomOf="@+id/valor_correo" />
 
     <Button
-        android:id="@+id/bu_edit_P"
+        android:id="@+id/btn_editar_perfil"
         android:layout_width="142dp"
         android:layout_height="62dp"
         android:layout_marginBottom="76dp"
@@ -130,7 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phoneP"
+        app:layout_constraintTop_toBottomOf="@+id/valor_telefono"
         app:layout_constraintVertical_bias="1.0"
         app:strokeColor="@color/white"
         app:strokeWidth="4dp" />
