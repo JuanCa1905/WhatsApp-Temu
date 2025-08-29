@@ -10,7 +10,7 @@ class InicioActivity : AppCompatActivity () {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicio)
 
-        val button = findViewById<Button>(R.id.bu_comenzar_ini)
+        val button = findViewById<Button>(R.id.btn_comenzar)
         button.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
