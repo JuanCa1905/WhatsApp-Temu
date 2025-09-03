@@ -1,38 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray"
-    android:orientation="vertical"
-    android:gravity="center"
-    >
+    android:fillViewport="true">
 
-    <ImageView
-        android:id="@+id/logo_grande"
-        android:layout_width="367dp"
-        android:layout_height="273dp"
-        app:srcCompat="@mipmap/ic_launcher_foreground"
-        android:layout_marginBottom="16dp" />
-
-    <TextView
-        android:id="@+id/titulo_app"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed-light"
-        android:text="WhatsApp Temu"
-        android:textColor="@color/orange"
-        android:textSize="34sp"
-        android:textStyle="bold" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical">
 
-    <TextView
-        android:id="@+id/nombre_autor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Juan Carlos Herrera Baron"
-        android:textColor="@color/orange" />
+        <LinearLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
 
-</LinearLayout>
+            <ImageView
+                android:id="@+id/logo_grande"
+                android:layout_width="367dp"
+                android:layout_height="273dp"
+                app:srcCompat="@mipmap/ic_launcher_foreground"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/titulo_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="WhatsApp Temu"
+                android:textColor="@color/orange"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nombre_autor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Juan Carlos Herrera Baron"
+            android:textColor="@color/orange" />
+
+    </LinearLayout>
+</ScrollView>
