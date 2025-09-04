@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="WhatsApp Temu"
+                android:text="@string/whatsapp_temu"
                 android:textColor="@color/orange"
                 android:textSize="30sp"
                 android:textStyle="bold"
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:fontFamily="sans-serif-medium"
-            android:text="La aventura esta por iniciar, por favor inicia sesion"
+            android:text="@string/la_aventura_esta_por_iniciar_por_favor_inicia_sesion"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:layout_gravity="center_horizontal"/>
@@ -82,7 +82,7 @@
                     android:layout_height="48dp"
                     android:layout_marginBottom="12dp"
                     android:background="@drawable/rounded_corner"
-                    android:hint="Correo electrónico"
+                    android:hint="@string/correo_electronico"
                     android:inputType="textEmailAddress"
                     android:padding="9dp" />
 
@@ -91,13 +91,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:background="@drawable/rounded_corner"
-                    android:hint="Contraseña"
+                    android:hint="@string/contraseña"
                     android:inputType="textPassword"
                     android:padding="9dp" />
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Contenedor para el botón de iniciar sesión y el enlace de recuperación -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
                 android:layout_width="164dp"
                 android:layout_height="63dp"
                 android:backgroundTint="@color/orange"
-                android:text="Iniciar"
+                android:text="@string/iniciar"
                 android:textColor="@color/white"
                 app:strokeWidth="4dp"
                 app:strokeColor="@color/white" />
@@ -120,11 +120,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Recupera tu contraseña"
+                android:text="@string/recupera_tu_contraseña"
                 android:textColor="@color/black" />
         </LinearLayout>
 
-        <!-- Contenedor para el botón de Google con su icono -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -146,12 +146,12 @@
                 android:id="@+id/btn_google_login_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ingresa con Google"
+                android:text="@string/ingresa_con_google"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
         </LinearLayout>
 
-        <!-- Contenedor para el texto y enlace de registro -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -162,13 +162,13 @@
                 android:id="@+id/etiqueta_cuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="No tienes cuenta?"
+                android:text="@string/no_tienes_cuenta"
                 android:textSize="16sp" />
             <TextView
                 android:id="@+id/link_registrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Registrarse"
+                android:text="@string/registrarse"
                 android:textColor="@color/orange"
                 android:textSize="16sp"
                 android:layout_marginStart="8dp" />

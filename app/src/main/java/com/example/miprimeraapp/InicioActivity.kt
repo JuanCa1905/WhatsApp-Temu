@@ -3,6 +3,7 @@ package com.example.miprimeraapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class InicioActivity : AppCompatActivity () {
@@ -15,5 +16,11 @@ class InicioActivity : AppCompatActivity () {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
+        val txtRegistro = findViewById<TextView>(R.id.link_registrar)
+        txtRegistro.setOnClickListener {
+            val intent = Intent(this, RegistroActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

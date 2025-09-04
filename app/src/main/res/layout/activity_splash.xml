@@ -34,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="WhatsApp Temu"
+                android:text="@string/whatsapp_temu"
                 android:textColor="@color/orange"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -48,7 +48,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="sans-serif-black"
-            android:text="Juan Carlos Herrera Baron"
+            android:text="@string/juan_carlos_herrera_baron"
             android:textColor="@color/orange" />
 
     </LinearLayout>

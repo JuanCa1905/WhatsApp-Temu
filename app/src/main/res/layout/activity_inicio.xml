@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-light"
-            android:text="WhatsApp Temu"
+            android:text="@string/whatsapp_temu"
             android:textColor="@color/orange"
             android:textSize="34sp"
             android:textStyle="bold" />
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="24dp"
-            android:text="Inicia una nueva aventura con WhatsApp Temu y descubre una nueva forma de ver al mundo"
+            android:text="@string/inicia_una_nueva_aventura_con_whatsapp_temu_y_descubre_una_nueva_forma_de_ver_al_mundo"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="14sp" />
@@ -47,7 +47,7 @@
             android:layout_width="202dp"
             android:layout_height="62dp"
             android:backgroundTint="@color/orange"
-            android:text="Comienza"
+            android:text="@string/comienza"
             android:textColor="@color/white"
             app:strokeWidth="4dp"
             app:strokeColor="@color/white" />
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Registrarse"
+            android:text="@string/registrarse"
             android:textColor="@color/orange"
             android:textSize="16sp" />
 

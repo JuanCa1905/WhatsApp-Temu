@@ -1,6 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mi primera app</string>
-    <string name="telefono">Telefono:</string>
     <string name="registrarse">Registrarse</string>
     <string name="comienza">Comienza</string>
     <string name="inicia_una_nueva_aventura_con_whatsapp_temu_y_descubre_una_nueva_forma_de_ver_al_mundo">Inicia una nueva aventura con WhatsApp Temu y descubre una nueva forma de ver al mundo</string>
@@ -11,7 +10,6 @@
     <string name="apellido">Apellido</string>
     <string name="correo">Correo</string>
     <string name="tel_fono">Teléfono</string>
-    <string name="contraseña">Contraseña</string>
     <string name="confirmar_contraseña">Confirmar contraseña</string>
     <string name="la_aventura_esta_por_iniciar_por_favor_inicia_sesion">La aventura esta por iniciar, por favor inicia sesion</string>
     <string name="correo_electronico">Correo electrónico</string>

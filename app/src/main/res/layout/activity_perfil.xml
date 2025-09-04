@@ -13,7 +13,7 @@
         android:padding="16dp"
         android:gravity="center_horizontal">
 
-        <!-- Imagen de perfil -->
+
         <ImageView
             android:id="@+id/imagen_perfil"
             android:layout_width="191dp"
@@ -21,7 +21,7 @@
             android:layout_marginTop="60dp"
             app:srcCompat="@drawable/profile_user_account_icon_190938" />
 
-        <!-- Contenedor para los campos de información -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:paddingStart="24dp"
             android:paddingEnd="24dp">
 
-            <!-- Fila para Nombres -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Nombres:"
+                    android:text="@string/nombres"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
                 <TextView
@@ -52,7 +52,7 @@
                     android:background="@drawable/rounded_corner" />
             </LinearLayout>
 
-            <!-- Fila para Apellidos -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Apellidos:"
+                    android:text="@string/apellidos"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
                 <TextView
@@ -86,7 +86,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Correo Electrónico:"
+                    android:text="@string/correo_electr_nico"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
                 <TextView
@@ -96,7 +96,7 @@
                     android:background="@drawable/rounded_corner" />
             </LinearLayout>
 
-            <!-- Fila para Teléfono -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Teléfono:"
+                    android:text="@string/telefono"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
                 <TextView
@@ -126,7 +126,7 @@
             android:layout_marginTop="50dp"
             android:layout_marginBottom="36dp"
             android:backgroundTint="@color/orange"
-            android:text="Editar"
+            android:text="@string/editar"
             android:textColor="@color/white"
             app:strokeColor="@color/white"
             app:strokeWidth="4dp" />

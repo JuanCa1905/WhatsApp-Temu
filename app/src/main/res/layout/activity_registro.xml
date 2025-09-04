@@ -33,19 +33,19 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="WhatsApp Temu"
+                android:text="@string/whatsapp_temu"
                 android:textColor="@color/orange"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Descripción del formulario -->
+
         <TextView
             android:id="@+id/texto_descripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Completa los datos para registrarse en el aplicativo."
+            android:text="@string/completa_los_datos_para_registrarse_en_el_aplicativo"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:layout_gravity="center_horizontal"
@@ -64,7 +64,7 @@
                 android:layout_height="48dp"
                 android:layout_marginBottom="12dp"
                 android:background="@drawable/rounded_corner"
-                android:hint="Nombre"
+                android:hint="@string/nombre"
                 android:inputType="textPersonName"
                 android:padding="9dp" />
 
@@ -74,7 +74,7 @@
                 android:layout_height="48dp"
                 android:layout_marginBottom="12dp"
                 android:background="@drawable/rounded_corner"
-                android:hint="Apellido"
+                android:hint="@string/apellido"
                 android:inputType="textPersonName"
                 android:padding="9dp" />
 
@@ -84,7 +84,7 @@
                 android:layout_height="48dp"
                 android:layout_marginBottom="12dp"
                 android:background="@drawable/rounded_corner"
-                android:hint="Correo"
+                android:hint="@string/correo"
                 android:inputType="textEmailAddress"
                 android:padding="9dp" />
 
@@ -94,7 +94,7 @@
                 android:layout_height="48dp"
                 android:layout_marginBottom="12dp"
                 android:background="@drawable/rounded_corner"
-                android:hint="Teléfono"
+                android:hint="@string/tel_fono"
                 android:inputType="phone"
                 android:padding="9dp" />
 
@@ -104,7 +104,7 @@
                 android:layout_height="48dp"
                 android:layout_marginBottom="12dp"
                 android:background="@drawable/rounded_corner"
-                android:hint="Contraseña"
+                android:hint="@string/contraseña"
                 android:inputType="textPassword"
                 android:padding="9dp" />
 
@@ -114,7 +114,7 @@
                 android:layout_height="48dp"
                 android:layout_marginBottom="12dp"
                 android:background="@drawable/rounded_corner"
-                android:hint="Confirmar contraseña"
+                android:hint="@string/confirmar_contraseña"
                 android:inputType="textPassword"
                 android:padding="9dp" />
         </LinearLayout>
@@ -129,7 +129,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="He leído y aceptado las políticas que maneja el aplicativo WhatsTemu"
+                android:text="@string/he_le_do_y_aceptado_las_pol_ticas_que_maneja_el_aplicativo_whatstemu"
                 android:padding="8dp" />
         </LinearLayout>
 
@@ -146,7 +146,7 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="36dp"
                 android:backgroundTint="@color/orange"
-                android:text="Registrarse"
+                android:text="@string/registrarse"
                 android:textColor="@color/white"
                 app:strokeColor="@color/white"
                 app:strokeWidth="4dp" />
