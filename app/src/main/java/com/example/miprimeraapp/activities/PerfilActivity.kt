@@ -1,7 +1,8 @@
-package com.example.miprimeraapp
+package com.example.miprimeraapp.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.miprimeraapp.R
 
 class PerfilActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
