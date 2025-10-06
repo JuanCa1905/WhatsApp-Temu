@@ -18,10 +18,9 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, RegistroActivity::class.java)
             startActivity(intent)
         }
-        val etEmail = findViewById<TextView>(R.id.input_correo)
-        val etPassword = findViewById<TextView>(R.id.input_contrasena)
+        val etEmail = findViewById<EditText>(R.id.input_correo)
+        val etPassword = findViewById<EditText>(R.id.input_contrasena)
         val btnLogin = findViewById<TextView>(R.id.btn_iniciar_sesion)
-
         btnLogin.setOnClickListener {
             comparacionLogin(etEmail, etPassword)
         }
@@ -33,7 +32,7 @@ class LoginActivity : AppCompatActivity() {
         val savedEmail = sharedPreferences.getString("email", "")
         val savedPassword = sharedPreferences.getString("password", "")
         if (email == savedEmail && password == savedPassword) {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, PerfilActivity::class.java)
             startActivity(intent)
             finish()
         } else {

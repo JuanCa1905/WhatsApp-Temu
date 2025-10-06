@@ -29,6 +29,12 @@
         <activity
             android:name=".activities.RegistroActivity"
             android:exported="false"/>
+        <activity
+            android:name=".activities.PerfilActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".activities.EditarPerfilActivity"
+            android:exported="false"/>
         <activity android:name=".activities.MainActivity" android:exported="false"/>
 
 

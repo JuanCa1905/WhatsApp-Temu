@@ -35,6 +35,8 @@ class MiPerfilFragment: Fragment()  {
 
         initViews(view)
 
+        return view
+
     }
 
     private fun loadUserData() {

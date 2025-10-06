@@ -17,7 +17,7 @@ class RegistroActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
 
-        sharedPreferences = getSharedPreferences("RegistroPrefs", MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences("UserData", MODE_PRIVATE)
         setupOnClickListener()
     }
 
@@ -81,9 +81,9 @@ class RegistroActivity : AppCompatActivity() {
         val editor = sharedPreferences.edit()
         editor.putString("nombres", nombres)
         editor.putString("apellidos", apellidos)
-        editor.putString("correo", correo)
+        editor.putString("email", correo)
         editor.putString("telefono", telefono)
-        editor.putString("contrasena", contrasena)
+        editor.putString("password", contrasena)
         editor.apply()
     }
 }
