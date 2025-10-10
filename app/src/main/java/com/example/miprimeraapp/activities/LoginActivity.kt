@@ -32,7 +32,7 @@ class LoginActivity : AppCompatActivity() {
         val savedEmail = sharedPreferences.getString("email", "")
         val savedPassword = sharedPreferences.getString("password", "")
         if (email == savedEmail && password == savedPassword) {
-            val intent = Intent(this, PerfilActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         } else {
